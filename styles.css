@@ -208,6 +208,20 @@ button:hover{
   top: 0;
 }
 
+@media only screen and (max-width: 576px) {
+  .box-container {
+    padding: 0 20px;
+    width: 100%;
+  }
+  
+  .card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
 @media only screen and (min-width: 577px) and (max-width: 3400px) {
 
   .box-container {
@@ -226,16 +240,4 @@ button:hover{
   }
 }
 
-@media only screen and (max-width: 576px) {
-  .box-container {
-    padding: 0 20px;
-    width: 100%;
-  }
-  
-  .card {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-  }
-}
 
