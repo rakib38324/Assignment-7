@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speed Monster</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="blogs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="blogs.html">Blogs</a>
+    </nav>
+
+    <header>
+        <h1 class="blog-title">Welcome to the Blog Page</h1>
+    </header>
+    <main>
+        
+        <article>
+            <div>
+                <h1>What is the difference between Global scope and Block scope?</h1>
+                <p>=>A global variable has global scope. A global variable is accessible from anywhere in the code. <br>
+
+                =>Block Scope — Lockal scope contains things defined inside code blocks. A local variable has a block scope. It can not assrssible outside of this block</p>
+            </div>
+        </article>
+        <article>
+            <h1>How does the Event Loop works in JavaScript?</h1>
+            <p>The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop.</p>
+        </article>
+        <article>
+            <div>
+                <h1>What is the difference between Local storage and Session storage?</h1>
+                <p>localStorage and sessionStorage are almost the same. Both have the following rules: <br>
+
+                1. They store key/value pairs for a particular domain. <br>
+                2. The values stored may only be strings. <br>
+                3. They have a limit of around 5MB of storage space. <br>
+                4. The one major difference between localStorage and sessionStorage is the expiration date. <br>
+                <br>
+                
+                =>localStorage persists the storage across browser sessions. So even if the domain is opened in a new tab, or the browser is closed and reopened, the storage is saved. There is no expiration.
+                <br>
+                =>sessionStorage is cleared when the page session ends. A page session lasts as long as the tab or the browser is open. Therefore, when you open a new tab or a new window, this creates a new session and new storage.</p>
+            </div>
+
+        </article>
+
+        <article>
+            <h1>How do I get undefined in JavaScript?</h1>
+            <p>
+                =>You will get undefined value when you call a non-existent property or method of an object. In the above example, a function Sum does not return any result but still we try to assign its resulted value to a variable. So in this case, result will be undefined.
+                <br>
+                <br>
+            </p>
+            <p> 
+                =>undefined is a property of the global object. That is, it is a variable in the global scope.   The initial value of undefined is the primitive value undefined. <br>
+               
+
+                In all non-legacy browsers, undefined is a non-configurable, non-writable property. (Even when this is not the case, avoid overriding it.) <br>
+                
+                
+                A variable that has not been assigned a value is of type undefined. A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not returned.</p>
+        </article>
+    </main>
+
+  </body>
+</html>

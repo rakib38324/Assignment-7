@@ -11,6 +11,15 @@ body {
   font-family: "Zilla Slab", serif;
 }
 
+
+
+a{
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 40px;
+}
+
 .box-container {
   width: 70%;
   margin: 0 auto;
